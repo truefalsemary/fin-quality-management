@@ -1,40 +1,4 @@
-30: 2024-02-22 14:33:10,379 test_get_objects:
-25: 2024-02-22 14:33:10,395 GET /objects
-30: 2024-02-22 14:33:10,944 test_get_objects_id_param[param0]:
-25: 2024-02-22 14:33:10,944 GET /objects
-30: 2024-02-22 14:33:11,298 test_get_objects_id_param[param1]:
-25: 2024-02-22 14:33:11,298 GET /objects
-30: 2024-02-22 14:33:11,678 test_get_objects_not_exist_id:
-25: 2024-02-22 14:33:11,678 GET /objects
-30: 2024-02-22 14:33:11,982 test_get_objects_invalid_id:
-25: 2024-02-22 14:33:11,982 GET /objects
-30: 2024-02-22 14:33:12,921 test_get_object:
-25: 2024-02-22 14:33:12,921 GET /objects/7
-30: 2024-02-22 14:33:13,304 test_get_object_not_exist:
-25: 2024-02-22 14:33:13,305 GET /objects/1593576458
-30: 2024-02-22 14:33:14,304 test_post_object_empty_body:
-25: 2024-02-22 14:33:14,305 POST /objects
-25: 2024-02-22 14:33:15,315 GET /objects/ff8081818dc62378018dd09751470fe5
-30: 2024-02-22 14:33:15,604 test_post_object_with_full_body:
-25: 2024-02-22 14:33:15,604 POST /objects
-25: 2024-02-22 14:33:15,933 GET /objects/ff8081818dc62378018dd09753b40fe6
-30: 2024-02-22 14:33:16,813 test_post_object_send_invalid_json:
-25: 2024-02-22 14:33:16,813 POST /objects
-30: 2024-02-22 14:33:17,198 test_put_object_with_empty_body:
-25: 2024-02-22 14:33:17,199 POST /objects
-25: 2024-02-22 14:33:17,543 PUT /objects/ff8081818dc62378018dd0975a060fe7
-25: 2024-02-22 14:33:18,595 GET /objects/ff8081818dc62378018dd0975a060fe7
-30: 2024-02-22 14:33:18,900 test_put_object_with_full_body:
-25: 2024-02-22 14:33:18,901 POST /objects
-25: 2024-02-22 14:33:19,792 PUT /objects/ff8081818dc62378018dd09762d80fe8
-25: 2024-02-22 14:33:20,793 GET /objects/ff8081818dc62378018dd09762d80fe8
-30: 2024-02-22 14:33:21,738 test_put_object_send_invalid_json:
-25: 2024-02-22 14:33:21,739 POST /objects
-25: 2024-02-22 14:33:22,680 PUT /objects/ff8081818dc62378018dd0976e040fe9
-30: 2024-02-22 14:33:23,619 test_put_object_update_non_exist_obj:
-25: 2024-02-22 14:33:23,619 PUT /objects/ff8081818a194cb8018a79e7545545ac
-30: 2024-02-22 14:33:23,932 test_delete_exist_object:
-25: 2024-02-22 14:33:23,933 POST /objects
-25: 2024-02-22 14:33:24,880 DELETE /objects/ff8081818dc62378018dd09776700fea
-30: 2024-02-22 14:33:25,858 test_delete_not_exist_object:
-25: 2024-02-22 14:33:25,858 DELETE /objects/ff8081818a194cb8018a79e7545545ac
+30: 2024-02-22 14:46:00,911 test_get_objects_id_param[param0]:
+25: 2024-02-22 14:46:00,924 GET /objects
+30: 2024-02-22 14:46:02,072 test_get_objects_id_param[param1]:
+25: 2024-02-22 14:46:02,072 GET /objects
