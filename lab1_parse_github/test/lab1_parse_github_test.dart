@@ -1,5 +1,4 @@
 import 'package:lab1_parse_github/github_client.dart';
-import 'package:lab1_parse_github/lab1_parse_github.dart';
 import 'package:lab1_parse_github/search_result_models.dart';
 import 'package:test/test.dart';
 
