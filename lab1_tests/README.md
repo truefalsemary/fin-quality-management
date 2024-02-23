@@ -6,4 +6,10 @@ pip install -r requirements.txt
 cd API_testing  
 pytest
 
-[//]: # (![img.png]&#40;img.png&#41;)
+**Result**
+
+![img_1.png](img_1.png)
+
+**Full report**
+
+[All_test_result](отчет.md)

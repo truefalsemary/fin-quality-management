@@ -1,4 +1,40 @@
-30: 2024-02-22 14:46:00,911 test_get_objects_id_param[param0]:
-25: 2024-02-22 14:46:00,924 GET /objects
-30: 2024-02-22 14:46:02,072 test_get_objects_id_param[param1]:
-25: 2024-02-22 14:46:02,072 GET /objects
+30: 2024-02-24 00:56:47,623 test_get_objects:
+25: 2024-02-24 00:56:47,668 GET /objects
+30: 2024-02-24 00:56:49,610 test_get_objects_id_param[param0]:
+25: 2024-02-24 00:56:49,610 GET /objects
+30: 2024-02-24 00:56:51,110 test_get_objects_id_param[param1]:
+25: 2024-02-24 00:56:51,111 GET /objects
+30: 2024-02-24 00:56:51,658 test_get_objects_not_exist_id:
+25: 2024-02-24 00:56:51,659 GET /objects
+30: 2024-02-24 00:56:52,915 test_get_objects_invalid_id:
+25: 2024-02-24 00:56:52,916 GET /objects
+30: 2024-02-24 00:56:53,391 test_get_object:
+25: 2024-02-24 00:56:53,393 GET /objects/7
+30: 2024-02-24 00:56:54,557 test_get_object_not_exist:
+25: 2024-02-24 00:56:54,557 GET /objects/1593576458
+30: 2024-02-24 00:56:55,781 test_post_object_empty_body:
+25: 2024-02-24 00:56:55,782 POST /objects
+25: 2024-02-24 00:56:56,252 GET /objects/ff8081818dc62378018dd7f8ae5b1933
+30: 2024-02-24 00:56:56,750 test_post_object_with_full_body:
+25: 2024-02-24 00:56:56,758 POST /objects
+25: 2024-02-24 00:56:57,197 GET /objects/ff8081818dc62378018dd7f8b2351934
+30: 2024-02-24 00:56:57,626 test_post_object_send_invalid_json:
+25: 2024-02-24 00:56:57,627 POST /objects
+30: 2024-02-24 00:56:58,830 test_put_object_with_empty_body:
+25: 2024-02-24 00:56:58,832 POST /objects
+25: 2024-02-24 00:57:00,012 PUT /objects/ff8081818dc62378018dd7f8bd351935
+25: 2024-02-24 00:57:00,456 GET /objects/ff8081818dc62378018dd7f8bd351935
+30: 2024-02-24 00:57:01,633 test_put_object_with_full_body:
+25: 2024-02-24 00:57:01,634 POST /objects
+25: 2024-02-24 00:57:02,072 PUT /objects/ff8081818dc62378018dd7f8c5361936
+25: 2024-02-24 00:57:02,623 GET /objects/ff8081818dc62378018dd7f8c5361936
+30: 2024-02-24 00:57:03,127 test_put_object_send_invalid_json:
+25: 2024-02-24 00:57:03,127 POST /objects
+25: 2024-02-24 00:57:03,581 PUT /objects/ff8081818dc62378018dd7f8cb0e1937
+30: 2024-02-24 00:57:04,005 test_put_object_update_non_exist_obj:
+25: 2024-02-24 00:57:04,006 PUT /objects/ff8081818a194cb8018a79e7545545ac
+30: 2024-02-24 00:57:04,474 test_delete_exist_object:
+25: 2024-02-24 00:57:04,475 POST /objects
+25: 2024-02-24 00:57:04,903 DELETE /objects/ff8081818dc62378018dd7f8d0501938
+30: 2024-02-24 00:57:05,340 test_delete_not_exist_object:
+25: 2024-02-24 00:57:05,341 DELETE /objects/ff8081818a194cb8018a79e7545545ac
